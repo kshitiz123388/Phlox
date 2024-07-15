@@ -1,0 +1,6 @@
+/* Blog Css */
+
+.blog{
+    margin-block: 5rem;
+    --grid-gap: 2rem;
+}

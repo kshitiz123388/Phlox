@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- icon -->
+
+    <!-- Google fonts End -->
+
+    <!-- custon style Sheet & JavaScript -->
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <script src="js/index.js" defer></script>
+    <script src="js/shop.js" defer></script>
+    <script src="./js/scrollreveal.min.js"></script>
+    <!-- custon style Sheet & JavaScript -->
+    <title></title>
+  </head>
+  <body>
+
+     <!-- ====================== Header Section ======================== -->
+
+     <header class="primary-header container flex">
+      <div class="header-inner-one flex">
+        <div class="logo">
+          <img src="./image/logo.png">
+        </div>
+        <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation">
+          <i class="uil uil-times-circle"></i>
+        </button>
+        <nav>
+          <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+            <li><a class="fs-100 fs-montserrat bold-500" href="./index.html">Home</a></li>
+            <li><a class="fs-montserrat bold-500" href="./shop.html">Shop</a></li>
+            <li><a class="active fs-100 fs-montserrat bold-500" href="./about.html">About Us</a></li>
+            <li><a class="fs-100 fs-montserrat bold-500" href="./blog.html">Blog</a></li>
+            <li><a class="fs-100 fs-montserrat bold-500" href="./contactus.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-login flex">
+        <p class="fs-100 fs-montserrat bold-500">Login</p>
+        <i class="uil uil-search"></i>
+        <i id="cart-box" aria-controls="cart-icon" class="uil uil-shopping-bag"></i>
+
+        <!-- ============================================================= -->
+        <!-- Cart Box -->
+         <div id="cart-icon" data-visible="false" class="cart-icon">
+          <div class="shopping flex">
+            <p>Shopping Basket</p>
+            <i class="uil uil-times"></i>
+          </div>
+          <div class="cart bold-800 flex">
+            <i class="uil uil-shopping-cart-alt"></i>
+            <p>Cart Is Empty</p>
+          </div>
+         </div>
+        <!-- ============================================================= -->
+      </div>
+      <div class="mobile-open-btn">
+        <i class="uil uil-align-right"></i>
+      </div>
+    </header>
+
+    <!-- ==========================End Header Section ============================-->
+
+    <!-- ==================== About Us Main ================================= -->
+
+     <!-- =============== Feature Section ==================== -->
+
+     <section class="shop-feature bg-gray grid">
+      <div>
+      <p class="fs-montserrat text-black">Home<span aria-haspopup="true" class="margin"></span>> About Us</p>
+      </div>
+      <h2 class="fs-poppins fs-300 bold-700">About Us</h2>
+    </section>
+
+  <!-- =============== Feature Section ==================== -->
+
+    <!-- ==================== About Us Main End================================= -->
+
+      <!-- =========== About Main ============== -->
+
+      <section class="about-section">
+        <div>
+          <img src="./image/about-us.png" alt="" class="about-section-img">
+        </div>
+        <div class="about-info">
+          <h3 class="fs-poppins fs-200 text-red ">Welcome To Digital Ecommerce</h3>
+          <h1 class="fs-montserrat fs-500 text-black">Who We Are?</h1>
+          <p class="fs-montserrat fs-100">When, While the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliege of my trees and but a few stay, <br><br>
+            gleams steal into the inner sanctuary, I throw myself down among the tall gress by the tricking stream and as I lie close to the earth a thousand unknown plants are noticed by me.
+            when I hear the buzz of the little world among the stalks, and grow familiar with the countiess indescriable forms of the insects and files, then I feel the presence. 
+          </p>
+
+          <div class="about-btn">
+            <button class="large-btn bg-red text-white fs-poppins">Shop Now</button>
+          </div>
+        </div>
+      </section>
+
+
+
+    <!-- ================ Brands Section ======================= -->
+
+     <section class="brands grid">
+      <div>
+        <img src="./image/br-1.png">
+      </div>
+      <div>
+        <img src="./image/br-2.png">
+      </div>
+      <div>
+        <img src="./image/br-3.png">
+      </div>
+      <div>
+        <img src="./image/br-4.png">
+      </div>
+      <div>
+        <img src="./image/br-5.png">
+      </div>
+     </section>
+
+  <!-- ==================End Of Heading Recent News =================== -->
+     <!-- ================== Footer Section =================== -->
+
+     <section class="footer grid">
+      <div class="footer-logo grid">
+        <img src="./image/logo.png">
+        <p class="fs-montserrat fs-100">There are many variations passages of lorem Ipsum available, but the majority have</p>
+        <div class="social-media flex">
+          <i class="uil uil-facebook-f"></i>
+          <i class="uil uil-instagram"></i>
+          <i class="uil uil-twitter"></i>
+          <i class="uil uil-linkedin"></i>
+        </div>
+      </div>
+      <div class="footer-menu grid">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#" class="fs-montserrat text-black fs-100">Home</a></li>
+          <li><a href="#" class="fs-montserrat text-black fs-100">About Us</a></li>
+          <li><a href="#" class="fs-montserrat text-black fs-100">Shop</a></li>
+          <li><a href="#" class="fs-montserrat text-black fs-100">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="contact grid">
+        <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+        <p class="fs-montserrat">+99 (0) 101 0000 888 Patricia 4401 Waldeck Street Grapevine Nashville, Tx 76051</p>
+      </div>
+
+      <div class="emails grid">
+        <h3 class="fs-poppins fs-200 bold-800">Subscribe To Our Email</h3>
+        <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+
+        <div class="inputField flex bg-gray">
+          <input type="email" placeholder="Enter Your Email" class="fs-montserrat bg-gray">
+          <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+        </div>
+      </div>
+     </section>
+
+  <!-- ================== End Of Footer Section ============ -->
+  <!-- ================== Copyright Section ================ -->
+   <section class="copyRight">
+    <p class="c-font fs-montserrat fs-100">&copy; 2022 estore. All right reserved</p>
+    <p class="fs-montserrat fs-100 text-align p-top">Privacy Poilcy. Term's & Condition</p>
+   </section>
+
+   <script>
+    const sr = ScrollReveal ({
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+        reset: true
+      })
+
+      sr.reveal('.shop-main, .pop-up, .shop-feature',{delay: 500, origin: 'top'})
+      sr.reveal('.about-section-img, .brands',{delay: 500, origin: 'left'})
+      sr.reveal('.about-info',{delay: 500, origin: 'right'})
+   </script>
+
+  </body>
+</html>
